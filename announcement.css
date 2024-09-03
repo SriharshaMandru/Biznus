@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: crimson;
+    display: flex;
+}
+.logo img{
+   height:50px;
+    margin-left: 100px;
+    align-self: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.nav-list ul{
+    margin-top: 32px;
+    margin-left: 350px;
+}
+.nav-list ul li { 
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 17px;
+    color:white;
+    padding:2px 7px;
+    border-radius: 5px;
+    font-family: "Sen", sans-serif;
+}
+.nav-list ul li:hover{
+    background-color: black;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav .cart {
+    background-color: black;
+    width:40px;
+    height:30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+nav .cart .material-symbols-outlined{
+    width:40px;
+    height:20px;
+    color:white;
+    text-align: center;
+    align-self: center;
+    padding:2px 5px;
+}
+.announcement{
+    background-color: black;
+    display: flex;
+    height:60px;
+    align-items: center;
+    justify-content: center;
+}
+.an-btn{
+    background-color: crimson;
+    font-size: 16px;
+    width:150px;
+    height:30px;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    font-family: "Sen", sans-serif;
+}
+.announcement span{
+    color:white;
+    margin-left: 20px;
+    font-family: "Sen", sans-serif;
+    font-size: 17px;
+}
+
+
+.an-heading{
+    background-color: black;
+    height:120px;
+}
+.an-heading h1{
+    font-size: 35px;
+    color:white;
+    font-family: "Sen",sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+.an-para1{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.an-para1 h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Sen",sans-serif;
+}
+.an-para1 p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Sen",sans-serif;
+}
+.an-para1 h3{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Sen",sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top:50px;
+    padding-bottom: 80px;
+}
+.footer-container .footer-logo{
+    margin-top: 30px;
+}
+.footer-container .footer-logo img{
+    height:50px;
+}
+.footer-container .footer-list ul{
+    color:white;
+    font-size: 28px;
+    font-family: "Sen",sans-serif; 
+    margin-bottom: 30px;
+}
+.footer-container .footer-list ul li{
+    color:white;
+    list-style: none;
+    font-size: 20px;
+}
+.footer-container .footer-list ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-family: "Sen",sans-serif;
+}
+.footer-list h2{
+  color:white;
+  font-family: "Sen",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.footer-list h2 span{
+    margin-right: 10px;
+}
+.footer-list h3{
+    color:white;
+    font-family: "Sen",sans-serif;
+    font-weight: 300;
+}
